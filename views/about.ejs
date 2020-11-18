@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+<link rel="stylesheet" href="/">
+<link rel="stylesheet" href="/resources">
+<link rel="stylesheet" href="/platform">
+<link rel="stylesheet" href="/join">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-toggleable-md bg-inverse navbar-inverse navbar fixed-top navbar-static-top bgcolor" id="navbar" style="cursor: pointer;">
+        <div class="container start">
+            <div class="container">
+                <a href="" class="navbar-brand"><h1>CURIIO</h1></a>
+              </div>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto flex-row flex-lg-row justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/platform">Platform</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/resources">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/join">Join</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+</header> 
+ 
+               <section class="abc">
+                <div class="post-wrapper">
+                  <div class="container">
+                   <div class="posts">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2" checked>
+                
+                    <div class="post s1" id="one">
+                        <h1>What is Curiio?</h1>
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <p>CURIIO promotes a positive discourse between parents and children about sexuality, adolescence and reproductive health. Harnessing the power of internet, age-based videos and articles on above mentioned matters would be made available through our platform. Under parental guidance, the performance of the child can be tracked and monitored. It also deals with the perplexities of a parent raising a young child in today’s world and the ‘uncomfortable’ conversations that comes along with it. For parents, the platform provides various blogs and articles emphasizing on the need of sex education.
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <img src="what.svg" alt="" class="what1">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="post s2" id="two">
+                        <h1>Why Curiio?</h1>
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <p>Sexuality education has been contentious since forever but the urgent need of reliable information is unquestioned. CURIIO provides a safe space for open discussions and trustworthy information.
+                              In India, such discussions are censored and deemed as inappropriate. This defiance led to the withdrawal of ‘adolescent education programme’, introduced in 2006-07. The reluctance towards such conversations pushes young people to seek falsified sources leading to misinformation and misguided behaviour. Thus, it is required from parents to initiate such conversations and make children aware about their bodies and its functionalities.
+                              
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <img src="why.svg" alt="" class="why1">
+                          </div>
+                        </div>
+                    </div>
+                  
+                   <div class="navigation">
+                     <label for="r1" class="bar"></label>
+                     <label for="r2" class="bar"></label>
+                   </div>
+                   </div>
+                </div>
+              </section>
+
+                <style>
+                  .what,.why{
+                    color: black;
+                    opacity: 1;
+                  }
+                  .nav-link:hover{
+            color: #ec892e;
+        }
+        .active .nav-link{
+            color: #ec892e;
+        }
+                  ul li{
+                    list-style: none;
+                  }
+                  input[name="r"]{
+                    position: absolute;
+                    visibility: hidden;
+                  }
+                  .posts{
+                    display: flex;
+                  }
+                  .navigation{
+                    position: absolute;
+                    bottom: -20px;
+                    left: 40%;
+                    transform: translate(60%,-130%);
+                    display: flex;
+                  }
+                  .bar{
+                    width: 50px;
+                    height: 10px;
+                    border: 2px solid #FF7F50;
+                    margin: 6px;
+                    cursor: pointer;
+                    transition: 0.4s;
+                  }
+                  .bar:hover{
+                    background: #FF7F50;
+                  }
+                  #r1:checked ~ .s1{
+                    margin-left: 0%;
+                  }
+                  #r2:checked ~ .s2{
+                    margin-left: -105%;
+                  }
+                  #r2:checked ~ .s1{
+                    visibility: hidden;
+                  }
+                  #one .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 25%;
+                    text-align: left;
+                    margin-left: 5%;
+                    font-family: 'Montserrat'
+                  }
+                  #one  h1{
+                    transform: translate(-23%,150%);
+                    color: #2e4f60;
+                    font-size: 450%;
+                    font-family: 'Karla';
+                  }
+                  #one img{
+                    padding-top: 5%;
+                  }
+                  #two img{
+                    padding-top: 10%;
+                  }
+                  #two .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 25%; 
+                    text-align: left;
+                    margin-left: 10%;
+                    font-family: 'Montserrat'
+                  } 
+                  #two h1{
+                    transform: translate(-25%,150%);
+                    color: #2e4f60;
+                    font-size: 450%;
+                    font-family: 'Karla';
+                  }                 
+                    .post-wrapper{
+                       max-height: 530px;
+                       display: flex;
+                       overflow-x: auto;
+                       margin-top: 2%;
+                       width:100% ;
+                    }
+                       .abc{
+            padding-top: 0%;
+            margin-bottom: 5%;
+                    }
+                    .post-wrapper::-webkit-scrollbar{
+                        width: 0;
+                    }
+                    .post-wrapper .post{
+                        height: 510px;
+                        min-width: 100%;
+                        text-align: center;
+                        line-height: 110px;
+                        margin-right: 2px;
+                    }
+                    .btn-secondary{
+        transform: translate(40%,1300%);
+        border-radius: 10%;
+        position: fixed;
+    }
+    .nav-link{
+            color:white;
+            font-family: 'Montserrat'   
+        }
+        #navbar{
+            height: 50px;
+            background: transparent;
+        }
+        .navbar-brand{
+            color: #ec892e;
+        }
+        .fa-bars{
+            color: white;
+            font-size: 170%;
+        }
+        #navbar{
+            height: 70px;
+            background: #2e4f60;
+        }
+
+        @media (max-width: 990px){
+          #one  h1{
+                    transform: translate(0%,150%);
+                    color: #2e4f60;
+                    font-size: 450%;
+                    font-family: 'Karla';
+                  }
+                  #two h1{
+                    transform: translate(5%,150%);
+                    color: #2e4f60;
+                    font-size: 450%;
+                    font-family: 'Karla';
+                  } 
+                  #r1:checked ~ .s2{
+                    visibility: hidden;
+                  } 
+                  #two .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 25%; 
+                    text-align: center;
+                    margin-left: 5%;
+                    font-family: 'Montserrat'
+                  } 
+                  #one .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 25%;
+                    text-align: center;
+                    margin-left: -5%;
+                    font-family: 'Montserrat'
+                  } 
+                  .fa-bars{
+            color: #ec8929;
+            font-size: 170%;
+            transform: translateY(-170%);
+        } 
+                  .navigation{
+                    position: absolute;
+                    bottom: -20px;
+                    left: 40%;
+                    transform: translate(40%,-130%);
+                    display: flex;
+                  } 
+                  .post-wrapper{
+                       max-height: 530px;
+                       display: flex;
+                       overflow-x: auto;
+                       margin-top: 2%;
+                       width:100% ;
+                    }
+        }
+        @media (max-width: 780px){
+          .post-wrapper{
+                       max-height: 930px;
+                       display: flex;
+                       overflow-x: auto;
+                       margin-top: 2%;
+                       width:100% ;
+                    }
+                    .post-wrapper .post{
+                        height: 940px;
+                        min-width: 100%;
+                        text-align: center;
+                        line-height: 110px;
+                        margin-right: 2px;
+                    }
+                    .what1{
+                      transform: translateY(-10%);
+                    }
+                    .why1{
+                      transform: translateY(-10%);
+                    }
+                    .navigation{
+                    position: absolute;
+                    bottom: -20px;
+                    left: 40%;
+                    transform: translate(20%,-130%);
+                    display: flex;
+                  } 
+        }
+        @media (max-width: 430px){
+          #one  h1{
+                    transform: translate(0%,170%);
+                    color: #2e4f60;
+                    font-size: 300%;
+                    font-family: 'Karla';
+                  }
+                  #two h1{
+                    transform: translate(5%,170%);
+                    color: #2e4f60;
+                    font-size: 300%;
+                    font-family: 'Karla';
+                  } 
+                  .post-wrapper{
+                       max-height: 900px;
+                       display: flex;
+                       overflow-x: auto;
+                       margin-top: -5%;
+                       width:100% ;
+                    }
+                    .post-wrapper .post{
+                        height: 790px;
+                        min-width: 100%;
+                        text-align: center;
+                        line-height: 110px;
+                        margin-right: 2px;
+                    }
+                    .why1{
+                      transform: translateY(-15%);
+                    }
+                    .navigation{
+                    position: absolute;
+                    bottom: -20px;
+                    left: 40%;
+                    transform: translate(-10%,-130%);
+                    display: flex;
+                  }
+                  #two .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 30%; 
+                    text-align: center;
+                    margin-left: 0%;
+                    font-family: 'Montserrat';
+                    font-size: 90%;
+                  } 
+                  #one .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 35%;
+                    text-align: center;
+                    margin-left: -5%;
+                    font-family: 'Montserrat';
+                    font-size: 90%;
+                  }
+                  #navbar{
+            height: 70px;
+            background: #2e4f60;
+        }
+        .what1{
+                      transform: translateY(-20%);
+                    }
+        }
+        @media (max-width: 380px){
+          .post-wrapper{
+                       max-height: 800px;
+                       display: flex;
+                       overflow-x: auto;
+                       margin-top: -5%;
+                       width:100% ;
+                    }
+                    .post-wrapper .post{
+                        height: 800px;
+                        min-width: 100%;
+                        text-align: center;
+                        line-height: 110px;
+                        margin-right: 2px;
+                    }
+                    #two .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 30%; 
+                    text-align: center;
+                    margin-left: 0%;
+                    font-family: 'Montserrat';
+                    font-size: 80%;
+                  } 
+                  #one  h1{
+                    transform: translate(0%,210%);
+                    color: #2e4f60;
+                    font-size: 280%;
+                    font-family: 'Karla';
+                  }
+                  #one .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 35%;
+                    text-align: center;
+                    margin-left: -5%;
+                    font-family: 'Montserrat';
+                    font-size: 80%;
+                  }  
+                  .what1{
+                      transform: translateY(-20%);
+                    }
+                    #navbar{
+            height: 70px;
+            background: #2e4f60;
+        }
+        }
+        
+        @media (max-width: 330px){
+          #one  h1{
+                    transform: translate(0%,90%);
+                    color: #2e4f60;
+                    font-size: 280%;
+                    font-family: 'Karla';
+                  }
+          #two h1{
+                    transform: translate(5%,160%);
+                    color: #2e4f60;
+                    font-size: 280%;
+                    font-family: 'Karla';
+                  }
+          #two .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 30%; 
+                    text-align: center;
+                    margin-left: 0%;
+                    font-family: 'Montserrat';
+                    font-size: 60%;
+                  } 
+                  #one .row p{
+                    line-height: 1.5;
+                    padding-left: 5%;
+                    padding-top: 30%;
+                    text-align: center;
+                    margin-left: -5%;
+                    font-family: 'Montserrat';
+                    font-size: 60%;
+                  }  
+                  .why1{
+                      transform: translateY(0%);
+                    }
+                    .what1{
+                      transform: translateY(-15%);
+                    }
+                    .post-wrapper{
+                       max-height: 800px;
+                       display: flex;
+                       overflow-x: auto;
+                       margin-top: -5%;
+                       width:100% ;
+                    }
+                    .post-wrapper .post{
+                        height: 590px;
+                        min-width: 100%;
+                        text-align: center;
+                        line-height: 110px;
+                        margin-right: 2px;
+                    }
+                    #navbar{
+            height: 70px;
+            background: #2e4f60;
+        }
+        }
+    </style>
+     <script>
+      $(window).scroll(function(){
+     if($(this).scrollTop()>100){
+     $('.navbar').css("background-color","#2e4f60");
+     $('.nav-link').css("color","white");
+     $('.nav-item .active').css("color","ec892e")
+     }
+     else{
+         $('.navbar').css("background-color", "transparent"); 
+         $('.nav-link').css("color","black");
+     }
+ })
+ </script>
+</body>
+</html>
